@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,10 +17,19 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+  background-color: #FEF6E4;
+  /* クリーム色の背景 */
+  color: #1A1A1A;
+  line-height: 1.4;
+  min-height: 100vh;
 }

@@ -1,0 +1,175 @@
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    min-height: calc(100vh - 100px);
+}
+
+/* ────── アーティスト詳細ページ ────── */
+.backLink {
+    margin-bottom: 16px;
+}
+
+.backLink .a {
+    color: #329DFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.backLink .a:hover {
+    text-decoration: underline;
+}
+
+.artistDetail {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.artistInfo {
+    flex: 1;
+}
+
+.artistInfo .h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.artistBio {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* 代表曲リスト */
+.artistSongs .h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.artistSongs .ul {
+    list-style: none;
+}
+
+.artistSongs .li {
+    padding: 12px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.artistSongs .li:last-child {
+    border-bottom: none;
+}
+
+.artistSongs .a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.artistSongs .a:hover {
+    color: #329DFF;
+}
+
+@media (max-width: 700px) {
+    .artistDetail {
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .artistPhoto .img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .artistInfo .h2 {
+        font-size: 20px;
+    }
+
+    .artistBio {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .artistSongs .h3 {
+        font-size: 18px;
+    }
+
+    .artistSongs .a {
+        font-size: 15px;
+    }
+
+    .artistSongs .li {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .artistDetail {
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .artistPhoto .img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .artistInfo .h2 {
+        font-size: 18px;
+    }
+
+    .artistBio {
+        font-size: 12px;
+    }
+
+    .artistSongs .h3 {
+        font-size: 16px;
+    }
+
+    .artistSongs .a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .artistDetail {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .artistPhoto .img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .artistInfo .h2 {
+        font-size: 14px;
+    }
+
+    .artistBio {
+        font-size: 11px;
+    }
+
+    .artistSongs .h3 {
+        font-size: 14px;
+    }
+
+    .artistSongs .a {
+        font-size: 13px;
+    }
+}
