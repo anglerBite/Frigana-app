@@ -1,0 +1,50 @@
+.modeButtonContainer {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto 27px;
+    background: #fff;
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* ボタン */
+.modeButtonContainer .button {
+    flex: 1;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+/* ホバー/フォーカス効果 */
+.modeButtonContainer .button:hover,
+.modeButtonContainer .button:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+/* アクティブ状態 */
+.modeButtonContainer .button:active {
+    background: #329DFF;
+    /* メインアクセントカラー */
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(50, 157, 255, 0.3);
+}
+
+@media (max-width: 500px) {
+    .modeButtonContainer {
+        width: 100px;
+    }
+
+    .modeButtonContainer .button {
+        padding: 5px 14px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+}

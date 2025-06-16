@@ -34,16 +34,16 @@ const page = () => {
                 <h3 className={style.h3}>代表曲</h3>
                 <ul className={style.ul}>
                     <li className={style.li}>
-                        <a href="song-detail.html" className={style.a}>Song Title A</a>
+                        <Link href="/lyrics" className={style.a}>Song Title A</Link>
                     </li>
                     <li className={style.li}>
-                        <a href="song-detail.html" className={style.a}>Song Title B</a>
+                        <Link href="/lyrics" className={style.a}>Song Title B</Link>
                     </li>
                     <li className={style.li}>
-                        <a href="song-detail.html" className={style.a}>Song Title C</a>
+                        <Link href="/lyrics" className={style.a}>Song Title C</Link>
                     </li>
                     <li className={style.li}>
-                        <a href="song-detail.html" className={style.a}>Song Title D</a>
+                        <Link href="/lyrics" className={style.a}>Song Title D</Link>
                     </li>
                 </ul>
             </section>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Provider } from 'jotai';;
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./_component/Header/Header";
@@ -27,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-      <Header />
-        {children}
-      <Footer />
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

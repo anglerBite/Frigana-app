@@ -34,7 +34,7 @@ const page = () => {
                         </ruby>
                     </div>
 
-                    <div className={style.actions}>
+                    {/* <div className={style.actions}>
                         <button className={style.play} aria-label="再生">
                             <svg
                                 width="24"
@@ -63,7 +63,7 @@ const page = () => {
                                 <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z" />
                             </svg>
                         </button>
-                    </div>
+                    </div> */}
                 </section>
             </article>
         </main>

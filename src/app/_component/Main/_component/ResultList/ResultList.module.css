@@ -1,0 +1,103 @@
+        /* 楽曲リスト */
+        .songList {
+            list-style: none;
+        }
+
+        .songList .li {
+            display: flex block;
+            gap: 20px;
+            align-items: center;
+            padding: 12px 5px;
+            border-bottom: 1px solid #E0E0E0;
+            cursor: pointer;
+            overflow: auto;
+        }
+
+        .songList .li:hover {
+            background-color: #E0E0E0;
+            border-radius: 10px;
+        }
+
+        /* .songList .li:last-child {
+            border-bottom: none;
+        } */
+
+        .songList .li .imageContainer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .songList .li .songTitleArtistNameContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .songList .li .img {
+            border-radius: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .songTitle {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .artistName {
+            font-size: 16px;
+        }
+
+        @media (max-width: 700px) {
+            .songList .li {
+                gap: 16px;
+                padding: 10px 4px;
+            }
+
+            .songList .li .img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .songTitle {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .songList .li {
+                gap: 18px;
+                padding: 10px 4px;
+            }
+
+            .songList .li .img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .songTitle {
+                font-size: 17px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .songList .li {
+                padding: 10px 4px;
+                gap: 8px;
+            }
+
+            .songList .li .songTitleArtistNameContainer {
+                gap: 4px;
+            }
+
+            .songList .li .img {
+                width: 36px;
+                height: 36px;
+            }
+
+            .songTitle {
+                font-size: 15px;
+            }
+        }

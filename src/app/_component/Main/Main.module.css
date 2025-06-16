@@ -5,7 +5,7 @@
             margin: 0 auto;
             padding: 24px 16px;
         }
-        
+
         /* 検索エリア */
         .searchContainer {
             display: flex;
@@ -13,119 +13,6 @@
             gap: 12px;
             margin-top: 10px;
             margin-bottom: 27px;
-        }
-
-        .searchContainer .input[type="text"] {
-            width: 100%;
-            padding: 12px 16px;
-            font-size: 16px;
-            border: 2px solid #A8D8FF;
-            border-radius: 24px;
-            outline: none;
-            background-color: #fff;
-        }
-
-        .searchContainer .button {
-            padding: 12px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #FFFFFF;
-            background-color: #329DFF;
-            border: none;
-            border-radius: 24px;
-            cursor: pointer;
-        }
-
-        /*切り替えボタン*/
-        .modeButtonContainer {
-            display: flex;
-            justify-content: center;
-            width: 200px;
-            margin: 0 auto 27px;
-            background: #fff;
-            border-radius: 999px;
-            overflow: hidden;
-            box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
-        }
-
-        /* ボタン */
-        .modeButtonContainer .button {
-            flex: 1;
-            padding: 8px 16px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #555;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-        }
-
-        /* ホバー/フォーカス効果 */
-        .modeButtonContainer .button:hover,
-        .modeButtonContainer .button:focus {
-            background: rgba(0, 0, 0, 0.05);
-            outline: none;
-        }
-
-        /* アクティブ状態 */
-        .modeButtonContainer .button:active {
-            background: #329DFF;
-            /* メインアクセントカラー */
-            color: #fff;
-            box-shadow: 0 2px 6px rgba(50, 157, 255, 0.3);
-        }
-
-        /* 楽曲リスト */
-        .songList {
-            list-style: none;
-        }
-
-        .songList .li {
-            display: flex block;
-            gap: 20px;
-            align-items: center;
-            padding: 12px 5px;
-            border-bottom: 1px solid #E0E0E0;
-            cursor: pointer;
-            overflow: auto;
-        }
-
-        .songList .li:hover {
-            background-color: #E0E0E0;
-            border-radius: 10px;
-        }
-
-        /* .songList .li:last-child {
-            border-bottom: none;
-        } */
-
-        .songList .li .imageContainer {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-shrink: 0;
-        }
-
-        .songList .li .songTitleArtistNameContainer {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .songList .li .img {
-            border-radius: 10px;
-            width: 50px;
-            height: 50px;
-        }
-
-        .songTitle {
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .artistName {
-            font-size: 16px;
         }
 
         /*media*/
@@ -143,20 +30,6 @@
             .searchContainer .button {
                 font-size: 16px;
                 padding: 10px;
-            }
-
-            .songList .li {
-                gap: 16px;
-                padding: 10px 4px;
-            }
-
-            .songList .li .img {
-                width: 40px;
-                height: 40px;
-            }
-
-            .songTitle {
-                font-size: 16px;
             }
 
             .artistName {
@@ -181,20 +54,6 @@
                 padding: 11px;
             }
 
-            .songList .li {
-                gap: 18px;
-                padding: 10px 4px;
-            }
-
-            .songList .li .img {
-                width: 40px;
-                height: 40px;
-            }
-
-            .songTitle {
-                font-size: 17px;
-            }
-
             .artistName {
                 font-size: 15px;
             }
@@ -214,34 +73,6 @@
             .searchContainer .button {
                 font-size: 14px;
                 padding: 8px;
-            }
-
-            .modeButtonContainer {
-                width: 100px;
-            }
-
-            .modeButtonContainer .button {
-                padding: 5px 14px;
-                font-size: 10px;
-                font-weight: 300;
-            }
-
-            .songList .li {
-                padding: 10px 4px;
-                gap: 8px;
-            }
-
-            .songList .li .songTitleArtistNameContainer {
-                gap: 4px;
-            }
-
-            .songList .li .img {
-                width: 36px;
-                height: 36px;
-            }
-
-            .songTitle {
-                font-size: 15px;
             }
 
             .artistName {

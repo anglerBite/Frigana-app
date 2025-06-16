@@ -1,0 +1,343 @@
+{
+    "search": {
+        "response": {
+            "hits": [
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },{
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                },
+                {
+                    "index": "song",
+                    "type": "song",
+                    "result": {
+                        "annotation_count": 7,
+                        "api_path": "/songs/199012",
+                        "artist_names": "Avril Lavigne",
+                        "full_title": "My World by Avril Lavigne",
+                        "header_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "header_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "id": 199012,
+                        "lyrics_owner_id": 225680,
+                        "lyrics_state": "complete",
+                        "path": "/Avril-lavigne-my-world-lyrics",
+                        "primary_artist_names": "Avril Lavigne",
+                        "pyongs_count": 7,
+                        "relationships_index_url": "https://genius.com/Avril-lavigne-my-world-sample",
+                        "release_date_components": {
+                            "year": 2002,
+                            "month": 6,
+                            "day": 4
+                        },
+                        "release_date_for_display": "June 4, 2002",
+                        "release_date_with_abbreviated_month_for_display": "Jun. 4, 2002",
+                        "song_art_image_thumbnail_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.300x300x1.png",
+                        "song_art_image_url": "https://images.genius.com/602f216126a69506d0d9e895ee99ba30.1000x1000x1.png",
+                        "title": "My World",
+                        "title_with_featured": "My World",
+                        "url": "https://genius.com/Avril-lavigne-my-world-lyrics",
+                        "primary_artist": {
+                            "api_path": "/artists/2224",
+                            "header_image_url": "https://images.genius.com/b315fe1743d0e2b5c7a04cfa6dc725f7.1000x333x1.jpg",
+                            "id": 2224,
+                            "image_url": "https://images.genius.com/3a7dee96bdf97a33e6e2f2e7110af57a.400x400x1.jpg",
+                            "is_meme_verified": false,
+                            "is_verified": true,
+                            "name": "Avril Lavigne",
+                            "url": "https://genius.com/artists/Avril-lavigne",
+                            "iq": 1091
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
