@@ -1,37 +1,24 @@
 'use client';
 
-import TextGenerate from '../TextGenerate/TextGenerate';
+import { useAtomValue } from 'jotai';
 import style from './Main.module.css';
-// import SearchInput from './_component/SearchInput/SearchInput';
-// import SearchBtn from './_component/SearchBtn/SearchBtn';
-// import ResultList from './_component/ResultList/ResultList';
-// import ModelBtn from './_component/ModelBtn/ModelBtn';
+import LyricGenerate from './_component/LyricGenerate/LyricGenerate';
+import TextGenerate from './_component/TextGenerate/TextGenerate';
+import { generateToggleAtom } from '@/app/jotai/atom';
+import ToggleGenerateBtn from './_component/ToggleGenerateBtn/ToggleGenerateBtn';
 
-const Main =  () => {
-    // const searchMusic = async () => {
-    //     try {
-    //         const res = await fetch('http://localhost:3000/api/get-songList');
-    //         if (!res.ok) {
-    //             throw new Error('フェッチ失敗');
-    //         }
-    //         const data = await res.json();
-    //         console.log(data);
-    //         // setDataset(data);
-    //     } catch {
-    //         alert('曲の検索に失敗しました。');
-    //     }
-    // }
+const Main = () => {
+
+    const frag = useAtomValue(generateToggleAtom)
 
     return (
         <main className={style.main}>
-            {/* <div className={style.searchContainer}>
-                <SearchInput />
-                <SearchBtn />
-            </div>
-                <ModelBtn />
-            <ResultList data={data.response.hits}/> */}
-
-            <TextGenerate />
+            <ToggleGenerateBtn />
+            {frag ? (
+                <LyricGenerate />
+            ) : (
+                <TextGenerate />
+            )}
         </main>
     )
 }

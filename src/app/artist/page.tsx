@@ -7,7 +7,7 @@ const page = () => {
         <main className={style.main}>
             {/* 戻るリンク */}
             <p className={style.backLink}>
-                <Link href="/artistlist" className={style.a}>&larr; アーティスト一覧に戻る</Link>
+                <Link href="/" className={style.a}>&larr; アーティスト一覧に戻る</Link>
             </p>
 
             {/* アーティストプロフィール */}
@@ -34,16 +34,16 @@ const page = () => {
                 <h3 className={style.h3}>代表曲</h3>
                 <ul className={style.ul}>
                     <li className={style.li}>
-                        <Link href="/lyrics" className={style.a}>Song Title A</Link>
+                        <Link href="/artist/lyrics" className={style.a}>Song Title A</Link>
                     </li>
                     <li className={style.li}>
-                        <Link href="/lyrics" className={style.a}>Song Title B</Link>
+                        <Link href="/artist/lyrics" className={style.a}>Song Title B</Link>
                     </li>
                     <li className={style.li}>
-                        <Link href="/lyrics" className={style.a}>Song Title C</Link>
+                        <Link href="/artist/lyrics" className={style.a}>Song Title C</Link>
                     </li>
                     <li className={style.li}>
-                        <Link href="/lyrics" className={style.a}>Song Title D</Link>
+                        <Link href="/artist/lyrics" className={style.a}>Song Title D</Link>
                     </li>
                 </ul>
             </section>
