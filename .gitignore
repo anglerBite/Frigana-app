@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 # jotai
-/src/jotai/
+/src/app/jotai/
 
 # mock
-/src/mock/
+/src/app/mock/

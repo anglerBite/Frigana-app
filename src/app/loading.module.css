@@ -1,0 +1,41 @@
+.skeletonContainer {
+    margin: 16px 0;
+    padding: 16px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+.skeletonLine {
+    height: 16px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    background: linear-gradient(90deg,
+            #eeeeee 25%,
+            #dddddd 50%,
+            #eeeeee 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    width: 100%;
+}
+
+/* 最後の行に余計なマージンをつけない */
+.skeletonLine:last-child {
+    margin-bottom: 0;
+}
+
+/* 3本目を少し短く */
+.skeletonLine.short {
+    width: 80%;
+}
+
+/* 光が流れるアニメーション */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
